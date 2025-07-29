@@ -1,4 +1,4 @@
-class Criter():
+class Critter():
     def __init__(self):
         print('A new critter is born.')
    
@@ -9,8 +9,8 @@ class Criter():
     def shout(self):
         print('Wooy\n I am shouting!!')
 
-crit1 = Criter()
-crit2 = Criter()
+crit1 = Critter()
+crit2 = Critter()
 
 crit1.talk()
 crit2.shout()
